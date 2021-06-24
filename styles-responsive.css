@@ -1,0 +1,230 @@
+@media screen and (max-width: 400px) {
+  /*CSS DEL HEADER*/
+  .menu-nav {
+    display: none;
+    width: 100%;
+  }
+  .mobile-menu {
+    display: block;
+  }
+
+  .menu-burguer {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+  }
+
+  #burguer:checked ~ .nav-menu-movil {
+    transform: translateX(0%);
+  }
+  .nav-menu-movil li:hover {
+    color: #00f3bb;
+    text-decoration: line-through;
+  }
+  .nav-menu-movil li a:hover {
+    color: #00f3bb;
+  }
+  .logo {
+    height: 24px;
+    width: 24px;
+  }
+  /*CSS DE LA SECTION 1 WELCOME*/
+  .regards {
+    margin: -275px 16px 24px 16px;
+  }
+
+  .title {
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 16px;
+  }
+
+  .p-potcasts {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 36px;
+    height: 66px;
+    width: 100%;
+  }
+
+  .tit-button {
+    font-size: 16px;
+    line-height: 22px;
+    height: 48px;
+    width: 100%;
+  }
+  /*CSS DE LA SECTION 2 EPISODES*/
+
+  .episodes {
+    height: 1203.5px;
+    width: 100%;
+  }
+
+  .pod-iframe {
+    height: 100%;
+    width: 100%;
+    margin: 11px;
+  }
+
+  .polygon {
+    clip-path: polygon(0% 5%, 100% 1%, 100% 85%, 0% 90%);
+    height: 1203.5px;
+  }
+
+  .tit-epi {
+    font-size: 36px;
+    line-height: 42px;
+    padding: 100px 147px 21px 16px;
+  }
+  /*CSS DE LA SECTION 3 INTERVIEWS*/
+  .we {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .we-cont {
+    margin: 27px 16px 54px 16px;
+    width: 288px;
+  }
+
+  .we-come {
+    font-size: 36px;
+    line-height: 42px;
+  }
+  .we-parag {
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 8px;
+  }
+  /*CSS DE LA SECTION 4 INTERVIEWS*/
+  .invited {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tit-invited {
+    font-size: 36px;
+    line-height: 42px;
+    padding-left: 44px;
+  }
+
+  .img-invited {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .img-invited img {
+    width: 100%;
+  }
+
+  .phone {
+    width: 100%;
+  }
+  /*CSS DE LA SECTION 5 TOPICS*/
+  .tit-topics {
+    font-size: 36px;
+    line-height: 42px;
+    padding-left: 44px;
+    width: 288px;
+  }
+
+  .topics {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 108px;
+    padding-right: 108px;
+  }
+
+  .tit-icon {
+    width: 288px;
+  }
+
+  .topics-img {
+    margin: 49px 108px 13px;
+  }
+
+  /*CSS DE LA SECTION 6 NOVELTIES*/
+  .novelties {
+    height: 341px;
+  }
+  .se-polygon {
+    clip-path: polygon(0% 15%, 100% 0%, 100% 80%, 0% 80%);
+  }
+  .tit-novelties {
+    font-size: 36px;
+    line-height: 42px;
+  }
+  .button-epi {
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 36px;
+  }
+  /*CSS DEL FOOTER*/
+  .footer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 64px;
+  }
+  .footer-date {
+    font-size: 14px;
+    line-height: 22px;
+    width: 227px;
+  }
+
+  .foo-networks {
+    margin-top: 16px;
+  }
+}
+
+@media screen and (max-width: 900px) and (min-width: 800px) {
+  /*CSS DE EPISODIES SECTION 2 EPISODES*/
+  .pod-iframe {
+    height: 220px;
+    width: 384px;
+  }
+  .episodies .songs .pod-iframe {
+    margin-bottom: 11px;
+  }
+
+  .polygon {
+    height: 800px;
+  }
+
+  .tit-epi {
+    padding-top: 110px;
+    padding-right: 700px;
+  }
+  /*CSS DE INTERVIEWS SECTION 3 WE*/
+  .we {
+    margin-top: -390px;
+  }
+  /*CSS DE INTERVIEWS SECTION 4 INTERVIEWS*/
+  .invited img {
+    height: 264px;
+    width: 33.3%;
+  }
+
+  /*CSS DE TOPICS SECTION 5 TOPICS*/
+  .tit-topics {
+    padding: 64px 0 56px 100px;
+  }
+  .topics-img {
+    width: 90px;
+    height: 90px;
+  }
+  .topics {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  /*CSS DE TITULOS*/
+  .regards {
+    margin-left: 100px;
+  }
+  .tit-epi,
+  .tit-invited {
+    padding-left: 100px;
+  }
+}

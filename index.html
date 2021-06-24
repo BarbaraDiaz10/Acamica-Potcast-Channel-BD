@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Podcast Channel</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./styles-responsive.css" />
+    <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400&display=swap"
+    rel="stylesheet"
+  />
+  <script
+    src="https://kit.fontawesome.com/81670265ac.js"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://kit.fontawesome.com/616c7f5836.js"
+    crossorigin="anonymous"
+  ></script>
+  </head>
+  <body>
+    <!--Header-->
+    <header class="header">
+      <nav class="menu-nav">
+        <img class="logo" src="./Resources/logo.svg" alt="" />
+        <div class="menu">
+          <ul>
+            <li><a href="#episodes">EPISODIOS</a></li>
+            <li><a href="#we">NOSOTROS</a></li>
+            <li><a href="#interviews">ENTREVISTAS</a></li>
+            <li><a href="#topics">TOPICOS</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!--Menu Hamburguesa-->
+      <nav class="mobile-menu">
+      <input type="checkbox" id="burguer" />
+      <div class="menu-burguer">
+          <img class="logo" src="./Resources/logo.svg" alt="" />
+      <label for="burguer">
+        <img
+          height="20px"
+          src="./Resources/icono-hamburguesa.svg"
+          alt="burguer"
+        />
+      </label>
+    </div>
+          <ul class="nav-menu-movil">
+              <li><a href="#episodes">EPISODIOS</a></li>
+              <li><a href="#we">NOSOTROS</a></li>
+              <li><a href="#interviews">ENTREVISTAS</a></li>
+              <li><a href="#topics">TÓPICOS</a></li>
+            </ul>
+    </nav>
+        <!-------------------------------------->
+    </header>
+
+    <!--Section 1 Welcome-->
+    <section class="regards">
+      <h1 class="title">
+        Hello <span class="world">world</span> pale blue dot
+        <span class="tit-point">.</span>
+      </h1>
+      <p class="p-potcasts">
+          Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.
+      </p>
+      <button onclick="location.href='#we'" class="tit-button">
+        CONOCÉ MÁS
+      </button>
+    </section>
+    <!--Section 2 Episodes-->
+    <section class="episodies" id="episodes">
+      <div class="polygon"></div>
+        <h2 class="tit-epi">Episodios</h2>
+        <div class="songs">
+            <iframe
+            scrolling="no"
+            title="Running Node Natively"
+            class="pod-iframe"
+            src="https://open.spotify.com/embed-podcast/show/2ySVrxGkN6n6frMTo9Nsrt"
+            allow="encrypted-media"
+          ></iframe>
+          <iframe
+            scrolling="no"
+            title="React + TypeScript Syntax"
+            class="pod-iframe"
+            src="https://open.spotify.com/embed-podcast/show/4kYCRYJ3yK5DQbP5tbfZby"
+            allow="encrypted-media"
+          ></iframe>
+          <iframe
+            scrolling="no"
+            title="You Had Me At Hylo"
+            class="pod-iframe"
+            src="https://open.spotify.com/embed-podcast/show/5JxcIaIkN8zx3Zy7yD9snv"
+            allow="encrypted-media"
+          ></iframe>
+          <iframe
+            scrolling="no"
+            title="The Railsconf 2021"
+            class="pod-iframe"
+            src="https://open.spotify.com/embed-podcast/show/2Iibd5A6R7mxkCm4NwNmUn"
+            allow="encrypted-media"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+         <!--section 3 We-->
+    <section class="we" id="we">
+      <div>
+        <img class="phone" src="./Resources/phone.png" alt="" />
+      </div>
+      <div class="we-cont">
+        <h2 class="we-come">De dónde venimos</h2>
+        <p class="we-parag">
+          Our posturings, our imagined self-importance, the delusion that we
+          have some privileged position in the Universe, are challenged by this
+          point of pale light.
+        </br>
+          Our planet is a lonely speck in the great enveloping cosmic dark. In
+          our obscurity, in all this vastness, there is no hint that help will
+          come from elsewhere to save us from ourselves.
+        </p>
+      </div>
+    </section>
+    <!--section 4 Interviews-->
+    <section class="invited" id="interviews">
+      <h2 class="tit-invited">Invitadas/os estelares</h2>
+      <div class="img-invited">
+        <img src="./Resources/grace-hopper.png" alt="grace-hopper" />
+        <img src="./Resources/Katie-Bouman.png" alt="Katie-Bouman" />
+       
+          <img
+            src="./Resources/Margaret_Hamilton.png"
+            alt="Margaret_Hamilton"
+          />
+   
+          <img
+            src="./Resources/An E.R.A.Univac 1103 computer in the 1950s.png"
+            alt="E.R.A.Univac"
+          />
+          <img
+            src="./Resources/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png"
+            alt="Computer operators"
+          />
+        <img src="./Resources/susan-kare.png" alt="susan-kare" />
+      </div>
+    </section>
+     <!--section 5 Topics-->
+    <section id="topics">
+      <h2 class="tit-topics">Algunos de nuestros temas</h2>
+      <div class="topics"> 
+        <div class="topics-box"> 
+          <img class="topics-img" src="./Resources/icon1.svg" alt="" />
+          <h4 class="tit-icon">Trabajo remoto</h4>
+        </div>
+        <div class="topics-box"> 
+          <img class="topics-img" src="./Resources/icon2.svg" alt="" />
+          <h4 class="tit-icon">Repensando la programación</h4>
+        </div>
+        <div class="topics-box"> 
+          <img class="topics-img" src="./Resources/icon3.svg" alt="" />
+          <h4 class="tit-icon">Bases del código</h4>
+        </div>
+          <div class="topics-box"> 
+          <img class="topics-img" src="./Resources/icon4.svg" alt="" />
+          <h4 class="tit-icon">Seguridad informática</h4>
+        </div>
+      </div>
+    </section>
+    <!--section 6 Novelties-->
+    <section class="novelties">
+      <div class="se-polygon">
+        <div class="nov-letter">
+          <h2 class="tit-novelties">¿Querés las últimas novedades?</h2>
+          <button class="button-epi" onclick="location.href='#episodes'">ESCUCHÁ LOS EPISODIOS</button>
+        </div>
+      </div>
+    </section>
+    <!--Footer-->
+    <footer>
+      <div class="footer">
+        <p class="footer-date">© 2019— Hello blue pale dot</p>
+        <div class="foo-networks">
+            <a href="https://www.spotify.com/"><i class="fab fa-spotify"></i></a>
+              <a href="https://www.instagram.com/"
+              ><i class="fab fa-instagram"></i></a>
+              <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                  <a href="https://web.telegram.org/"><i class="fab fa-telegram"></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
