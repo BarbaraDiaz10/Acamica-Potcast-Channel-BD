@@ -299,7 +299,7 @@
   background-image: linear-gradient(270deg, #0000fe 0%, #00f0b8 100%);
   color: #ffffff;
 }
-/*CSS del footer*/
+/*CSS del footer* Hola/
 .footer {
   display: flex;
   justify-content: space-between;
@@ -325,3 +325,4 @@
 .foo-networks i:hover {
   color: #00f3bb;
 }
+
